@@ -10,8 +10,6 @@ services:
     command: npm run start
     networks: 
       - node-network
-    volumes: 
-      - ./node:/usr/src/app
     ports: 
       - "3000:3000"
     tty: true

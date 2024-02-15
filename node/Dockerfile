@@ -1,5 +1,7 @@
 FROM node:15
 
+WORKDIR /usr/src/app
+
 RUN echo "deb http://security.debian.org/debian-security bullseye-security main contrib non-free" > /etc/apt/sources.list
 
 RUN apt-get update && \
