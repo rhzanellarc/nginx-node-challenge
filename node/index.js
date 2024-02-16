@@ -1,17 +1,3 @@
-// const express = require('express')
-
-// const app = express()
-// const port = 3000
-// app.get('/', async (req,res) => {
-//     let response = '<h1>Full Cycle</h1>'
-//     // response += getNameList(await getNames())
-//     res.send(response)
-// })
-
-// app.listen(port, ()=> {
-//     console.log('Rodando na porta ' + port)
-// })
-
 const express = require('express')
 
 const app = express()
